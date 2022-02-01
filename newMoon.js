@@ -4,7 +4,7 @@
 // The expressions are based on Chapront's ELP-2000/82 theory for the Moon (with improved expressions for the arguments M, M', etc., as mentioned in Chapter 47), 
 // and on Bretagnon's and Francou's VSOP87 theory for the Sun.
 
-function jdeNewMoon (k){
+function newMoon (k){
     // let date = new Date('1 Jan 2000 12:00:00 GMT+0000')
     let date0 = new Date('6 Jan 2000 18:14:00 GMT+0000')
     const sind = (deg) => Math.sin(deg*Math.PI/180)
